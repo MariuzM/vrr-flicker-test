@@ -716,8 +716,11 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 #endif
 
-    GLFWwindow* window = glfwCreateWindow(1280, 720,
-        "VRR Flicker & Screen Tearing Test", nullptr, nullptr);
+    GLFWmonitor* monitor = glfwGetPrimaryMonitor();
+    const GLFWvidmode* vidmode = glfwGetVideoMode(monitor);
+
+    GLFWwindow* window = glfwCreateWindow(vidmode->width, vidmode->height,
+        "VRR Flicker & Screen Tearing Test", monitor, nullptr);
     if (!window) {
         fprintf(stderr, "Failed to create window\n");
         glfwTerminate();
@@ -726,9 +729,13 @@ int main() {
 
     glfwMakeContextCurrent(window);
     glfwSwapInterval(0);
-    glfwSetWindowSizeLimits(window, 640, 480, GLFW_DONT_CARE, GLFW_DONT_CARE);
 
     AppState state;
+    state.fullscreen = true;
+    state.windowedW = vidmode->width / 2;
+    state.windowedH = vidmode->height / 2;
+    state.windowedX = vidmode->width / 4;
+    state.windowedY = vidmode->height / 4;
     glfwSetWindowUserPointer(window, &state);
     glfwSetKeyCallback(window, keyCallback);
 

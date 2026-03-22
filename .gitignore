@@ -1,0 +1,6 @@
+*.o
+*.obj
+.DS_Store
+.cache/
+.vscode/
+CMakeUserPresets.json

@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/CMakeFiles/glfw-populate.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test.rule
+/Volumes/Media/Dev/Projects/project__vrr-flicker/build-win32/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update.rule

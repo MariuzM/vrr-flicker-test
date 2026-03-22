@@ -1,0 +1,2 @@
+/opt/homebrew/bin/i686-w64-mingw32-ar qc libimgui_lib.a "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui.cpp.obj" "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_draw.cpp.obj" "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_tables.cpp.obj" "CMakeFiles/imgui_lib.dir/_deps/imgui-src/imgui_widgets.cpp.obj" "CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.obj" "CMakeFiles/imgui_lib.dir/_deps/imgui-src/backends/imgui_impl_opengl2.cpp.obj"
+/opt/homebrew/bin/i686-w64-mingw32-ranlib libimgui_lib.a
